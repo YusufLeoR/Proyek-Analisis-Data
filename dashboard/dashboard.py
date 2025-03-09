@@ -5,8 +5,8 @@ import streamlit as st
 
 sns.set(style='dark')
 
-day_df = pd.read_csv("day.csv")
-hour_df = pd.read_csv("hour.csv")
+day_df = pd.read_csv("dashboard/day.csv")
+hour_df = pd.read_csv("dashboard/hour.csv")
 
 # Helper functions
 def humidity_rentals(day_df):
