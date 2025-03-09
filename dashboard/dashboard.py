@@ -5,7 +5,6 @@ import streamlit as st
 
 sns.set(style='dark')
 
-# Load data
 day_df = pd.read_csv("day.csv")
 hour_df = pd.read_csv("hour.csv")
 
